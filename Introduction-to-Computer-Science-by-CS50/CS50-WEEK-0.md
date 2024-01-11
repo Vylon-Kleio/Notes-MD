@@ -225,7 +225,7 @@ H   I   !
 - Notice that the center of the stage is at coordinate (0,0). Right now, the cat’s position is at that same position.
 - To begin, drag the “when green flag clicked” building block to the programming area. Then, drag the `say` building block to the programming area and attach it to the previous block.
 
-![](../Attachment/scratch1.png)
+![](Attachment/scratch1.png)
 
 - Notice that when you click the green flag now, on the stage, the cat says, “hello world.”
 - This illustrates quite well what we were discussing earlier regarding programming:
@@ -235,12 +235,12 @@ H   I   !
 - Notice that the input `hello world` is passed to the function `say`, and the **side effect** of that function running is the cat saying `hello world`.
 - We can make your program more interactive by having the cat say `hello` to someone specific. Modify your program as below:
 
-![](../Attachment/scratch2.png)
+![](Attachment/scratch2.png)
 
 - Notice that when the green flag is clicked, the function `ask` is run. The program prompts you, the user, `What's your name?` It then stores that name in the **variable** called `answer`. The program then passes `answer` to a special function called `join`, which combines two strings of text `hello`, and whatever name was provided. These collectively are passed to the `say` function. The cat says, `Hello,` and a name. Your program is now interactive.
 - Quite similarly, we can modify our program as follows:
 
-![](../Attachment/scratch3.png)
+![](Attachment/scratch3.png)
 
 - Notice that this program, when the green flag is clicked, passes the same variable, joined with `hello`, to a function called `speak`.
 
@@ -253,17 +253,17 @@ H   I   !
 - For example, if you were hosting a huge dinner for your friends, the **problem** of having to cook the entire meal could be quite overwhelming! However, if you break down the task of cooking the meal into smaller and smaller tasks (or problems), the big task of creating this delicious meal might feel less challenging.
 - In programming, and even within Scratch, we can see abstraction in action. In your programming area, program as follows:
 
-![](../Attachment/scratch4.png)
+![](Attachment/scratch4.png)
 
 - Notice that you are doing the same thing over and over again. Indeed, if you see yourself repeatedly coding the same statements, it’s likely the case that you could program more artfully – abstracting away this repetitive code.
 - You can modify your code as follows:
 
-![](../Attachment/scratch5.png)
+![](Attachment/scratch5.png)
 
 - Notice that the loop does exactly as the previous program did. However, the problem is simplified by abstracting away the repetition to a block that **repeats** the code for us.
 - We can even advance this further by using the `define` block, where you can create your own block (your own function)! Write code as follows:
 
-![](../Attachment/scratch6.png)
+![](Attachment/scratch6.png)
 
 - Notice that we are defining our own block called `meow`. The function plays the sound `meow`, then waits one second. Below that, you can see that when the green flag is clicked, our meow function is repeated three times.
 - We can even provide a way by which the function can take an input `n` and repeat a number of times
@@ -276,12 +276,12 @@ H   I   !
 - **conditionals** are an essential building block of programming, where the program looks to see if a specific condition has been met. If a condition is met, the program does something.
 - To illustrate a conditional, write code as follows:
 
-![](../Attachment/scratch7.png)
+![](Attachment/scratch7.png)
 
 - Notice that the forever block is utilized such that the if block is triggered over and over again, such that it can check continuously if the cat is touching the mouse pointer.
 - We can modify our program as follows to integrate video sensing:
 
-![](../Attachment/scratch8.png)
+![](Attachment/scratch8.png)
 
 - Remember, programming is often a process of trial and error. If you get frustrated, take time to talk yourself through the problem at hand. What is the specific problem that you are working on right now? What is working? What is not working?
 
@@ -297,22 +297,22 @@ H   I   !
 
 - Then, write code as follows:
 
-![](../Attachment//scratch9.png)
+![](Attachment//scratch9.png)
 
 - Notice that moving your mouse over Oscar changes his costume. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565100517).
 - Then, modify your code as follow to create a falling piece of trash:
 
-![](../Attachment/scratch10.png)
+![](Attachment/scratch10.png)
 
 - Notice that the trash’s position on the y-axis always begins at 180. The x position is randomized. While the trash is above the floor, it goes down 3 pixels at a time. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565117390).
 - Next, modify your code as follows to allow for the possibility of dragging trash.
 
-![](../Attachment/scratch11.png)
+![](Attachment/scratch11.png)
 
 - You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565119737).
 - Next, we can implement the scoring variables as follows:
 
-![](../Attachment/scratch12.png)
+![](Attachment/scratch12.png)
 
 - You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565472267).
 
@@ -324,17 +324,17 @@ H   I   !
 - Our program has three main components.
 - First, write code as follows:
 
-![](../Attachment/scratch13.png)
+![](Attachment/scratch13.png)
 
 - Notice that when the green flag is clicked, our sprite moves to the center of the stage at coordinates (0,0) and then listens for the keyboard and checks for walls forever.
 - Second, add this second group of code blocks:
 
-![](../Attachment/scratch14.png)
+![](Attachment/scratch14.png)
 
 - Notice how we have created a custom `listen for keyboard` script. For each of our arrow keys on the keyboard, it will move the sprite around the screen.
 - Finally, add this group of code blocks:
 
-![](../Attachment/scratch15.png)
+![](Attachment/scratch15.png)
 
 - Notice how we also have a custom `feel for walls` script. When a sprite touches a wall, it moves it back to a safe position – preventing it from walking off the screen.
 - You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565121265).
@@ -347,12 +347,12 @@ H   I   !
 - Scratch allows for many sprites to be on the screen at once.
 - Adding another sprite, add the following code blocks to your program:
 
-![](../Attachment/scratch16.png)
+![](Attachment/scratch16.png)
 
 - Notice how the Yale sprite seems to get in the way of the Harvard sprite by moving back and forth. When it bumps into a wall, it turns around until it bumps the wall again. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565127193).
 - You can even make a sprite follow another sprite. Adding another sprite, add the following code blocks to your program:
 
-![](../Attachment/scratch17.png)
+![](Attachment/scratch17.png)
 
 - Notice how the MIT logo now seems to follow around the Harvard one. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565479840).
 - Go try the full game [Ivy’s Hardest Game](https://scratch.mit.edu/projects/565742837).
